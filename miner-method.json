@@ -1,0 +1,12 @@
+{
+  "schema_version": "1",
+  "name": "sample-arith-method",
+  "version": "1.0.0",
+  "entrypoint": "generator.py",
+  "dependencies_file": "dependencies.json",
+  "license": "MIT",
+  "capabilities": ["math", "text"],
+  "source_ids": ["synthetic-math-v1"],
+  "python": "3.11",
+  "description": "Deterministic arithmetic curriculum sample with FOUNDATION, TRANSFER and GROWTH stages. Other template branches are examples; declare capabilities and source_ids for the task you actually support."
+}
